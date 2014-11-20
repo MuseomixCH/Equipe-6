@@ -1,0 +1,3 @@
+[submodule "code/detecteur-presence/ArduinoLibraries"]
+	path = code/detecteur-presence/ArduinoLibraries
+	url = https://github.com/daijo/ArduinoLibraries.git
