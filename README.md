@@ -2,7 +2,7 @@
 
 Ce référentiel contient le code source des artefacts logiciels de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 pendant les trois jours de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
 
-<img src="images/IMG_2370.JPG" height="180"/> <img src="images/IMG_6057 23.JPG" height="180"/>
+<img src="images/IMG_2370.JPG" height="180"/> <img src="images/IMG_2370.JPG" height="180"/> <img src="images/IMG_6057 23.JPG" height="180"/> <img src="images/IMG_6250.JPG" height="180"/>
 
 ## Présentation
 
