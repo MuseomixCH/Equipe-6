@@ -27,7 +27,7 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 * [Quicktime](http://support.apple.com/downloads/#quicktime) _version 7.7.6 dans notre setup_
 * [Pilote Arduino Uno](http://arduino.cc/en/guide/windows) _suivre les instructions, qui permettent d'installer le driver USB FTDI pour l'Arduino (version 1.0.6 dans notre setup)_
 
-## Participants
+## Equipe de réalisation
 
 ### Equipe 6
 
@@ -39,12 +39,14 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 * Olivier Lange _codeur_
 * Eric Brachet _facilitateur_
 
-### Avec le support de
+### Avec le soutien de
 
 * Jérémie Forge [Hemisphere Project](http://www.hemisphere-project.com) _guichet des technologies_
 * Alain Barthélémy [Hemisphere Project](http://www.hemisphere-project.com) _guichet des technologies_
+* Richard Timsit [FabLab Renens](http://www.fablab-chene20.ch/) _découpe laser_
 * Paola [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
 * Eric [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
+* Luca Palli _suggestions de matériel et indéfectible soutien logistique_
 * Gregor Bruhin [FabLab La Côte](http://www.fablab-lacote.ch) _coup de main complice pour installer le pilote Arduino_
 
 ## Licence
