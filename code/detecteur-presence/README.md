@@ -5,10 +5,12 @@ par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 
 ## Préparation
 
-### Matériel
+### Matériel
 
  * Circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno)
- * et capteur [Ultrasonic HC-SR04](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE).
+ * Capteur [Ultrasonic HC-SR04](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE)
+ * Breadboard et câbles
+ * Câble USB/microUSB pour programmer l'Arduino
 
 ### Logiciel
 
@@ -16,9 +18,9 @@ par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 
 ### Librairie Ultrasonic
 
-Pour pouvoir compiler le programme, placer une copie de la librairie Ultrasonic HC-SR04
-pour Arduino dans le dossier `~/Documents/Arduino/libraries/` des [librairies de l'IDE
-Arduino](http://www.arduino.cc/en/Hacking/Libraries):
+Pour pouvoir compiler le programme, placer une copie de la librairie Ultrasonic HC-SR04 pour Arduino
+dans le dossier des [librairies de l'IDE Arduino](http://www.arduino.cc/en/Hacking/Libraries). Voici
+les instructions pour Mac OS X; le dossier cible des librairies est `~/Documents/Arduino/libraries/`:
 
     git submodule update --init
     cd ArduinoLibraries/HCSR04Ultrasonic
