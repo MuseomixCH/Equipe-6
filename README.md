@@ -49,4 +49,4 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 
 ## Licence
 
-Les sources du prototype [Les insomniaques du Musée](http://www.museomix.org/prototypes/les-insomniaquesdumusee/) de l'équipe 6 de [Museomix Leman 2014](http://www.museomix.org/localisation/geneve-2014/) sont mis à disposition selon les termes de la licence [Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Les sources du prototype [Les insomniaques du Musée](http://www.museomix.org/prototypes/les-insomniaquesdumusee/) de l'équipe 6 de [Museomix Leman 2014](http://www.museomix.org/localisation/geneve-2014/) sont mis à disposition selon les termes de la licence [Creative Commons Attribution – Partage dans les Mêmes Conditions 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
