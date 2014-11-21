@@ -1,7 +1,7 @@
 # Détecteur de présence
 
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
-par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
+par Jérémie Forge et Alain Barthélémy, en support au _Guichet des Technologies_ de Museomix Léman 2014.
 
 <img src="../../images/IMG_6250.JPG" height="200" title="Assemblage du détecteur avec Arduino Due"/>
 
@@ -21,17 +21,18 @@ par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 ### Librairie Ultrasonic
 
 Pour pouvoir compiler le programme, placer une copie de la librairie Ultrasonic HC-SR04 pour Arduino
-dans le dossier des [librairies de l'IDE Arduino](http://www.arduino.cc/en/Hacking/Libraries). Voici
-les instructions pour Mac OS X; le dossier cible des librairies est `~/Documents/Arduino/libraries/`:
+dans le dossier des [librairies de l'IDE Arduino](http://www.arduino.cc/en/Hacking/Libraries).
+
+Voici les instructions pour Mac OS X; le dossier cible des librairies est `~/Documents/Arduino/libraries/`:
 
     git submodule update --init
     cd ArduinoLibraries/HCSR04Ultrasonic
     mkdir ~/Documents/Arduino/libraries/Ultrasonic
     cp Ultrasonic.{cpp,h} ~/Documents/Arduino/libraries/Ultrasonic/
 
-Le code source qui se trouve dans le sous-dossier `ArduinoLibraries/HCSR04Ultrasonic` est lié
-au référentiel externe [daijo/ArduinoLibraries](https://github.com/daijo/ArduinoLibraries)
-(par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) de Git).
+Le code source de la librairie Ultrasonic se trouve dans le sous-dossier `ArduinoLibraries/HCSR04Ultrasonic`
+— ce dernier étant lié au référentiel externe [daijo/ArduinoLibraries](https://github.com/daijo/ArduinoLibraries)
+par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) de Git.
 
 ## Assemblage
 
