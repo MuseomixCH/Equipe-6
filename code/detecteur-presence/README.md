@@ -1,7 +1,7 @@
 # Détecteur de présence
 
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
-par Jérémie Forge et Alain Barthelemy du Guichet des Technologies.
+par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 
 ## Matériel
 
@@ -19,9 +19,9 @@ Arduino](http://www.arduino.cc/en/Hacking/Libraries):
     mkdir ~/Documents/Arduino/libraries/Ultrasonic
     cp Ultrasonic.{cpp,h} ~/Documents/Arduino/libraries/Ultrasonic/
 
-Le code source de cette librairie se trouve dans le sous-dossier `ArduinoLibraries/HCSR04Ultrasonic`,
-qui est lié au référentiel externe [daijo/ArduinoLibraries](https://github.com/daijo/ArduinoLibraries)
-par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) de Git.
+Le code source qui se trouve dans le sous-dossier `ArduinoLibraries/HCSR04Ultrasonic` est lié
+au référentiel externe [daijo/ArduinoLibraries](https://github.com/daijo/ArduinoLibraries)
+(par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Submodules) de Git).
 
 ## Assemblage
 
@@ -32,7 +32,9 @@ par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Subm
 ## Compilation
 
 Raccorder l'assemblage à l'ordinateur par le câble USB (connecter le port _Programming_ sur
-l'Arduino Due) et lancer l'IDE Arduino. Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`,
-sélectionner le board et le port adéquats, puis commander l'upload du programme.
+l'Arduino Due) et lancer l'IDE Arduino.
+
+Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`, sélectionner le board (menu _Tools » Board_)
+et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programme.
 
 ![Aperçu de l'IDE Arduino avec le programme du capteur](arduino-ide-ultrasonic-compile.png)
