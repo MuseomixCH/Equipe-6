@@ -11,7 +11,7 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 ## Assemblage
 
 * [Assemblage du détecteur de présence](code/detecteur-presence)
-* Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/)
+* Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/) 
 
 ## Déploiement
 
@@ -25,24 +25,25 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 * [Quicktime](http://support.apple.com/downloads/#quicktime) _version 7.7.6 dans notre setup_
 * [Pilote Arduino Uno](http://arduino.cc/en/guide/windows) _suivre les instructions, qui permettent d'installer le driver USB FTDI pour l'Arduino (version 1.0.6 dans notre setup)_
 
-## Equipe
+## Participants
 
-|Equipe 6| |
-|---|---|
-|Anne Zumbach|_communication_|
-|Stéphanie Masuy|_méditation culturelle_|
-|Marie-Hélène de Ryckel|_méditation culturelle_|
-|Karl Laurent|_contenus muséaux_|
-|Vincent de Vevey|_graphisme_|
-|Olivier Lange|_codeur_|
-|Avec le support de| |
-|---|---|
-|Jérémie Forge|_guichet des technologies_|
-|Eric Brachet|_facilitateur_|
-|Alain Barthelemy|_guichet des technologies_|
-|Paola, Webster University|_photo, captation et montage vidéo_|
-|Eric, Webster University|_photo, captation et montage vidéo_|
-|Gregor Bruhin, FabLab La Côte|_coup de main complice pour installer le pilote Arduino_|
+### Equipe 6
+
+* Anne Zumbach _communication_
+* Stéphanie Masuy _méditation culturelle_
+* Marie-Hélène de Ryckel _méditation culturelle_
+* Karl Laurent _contenus muséaux_
+* Vincent de Vevey _graphisme_
+* Olivier Lange _codeur_
+* Eric Brachet _facilitateur_
+
+### Avec le support de
+
+* Jérémie Forge [Hemisphere Project](http://www.hemisphere-project.com) _guichet des technologies_
+* Alain Barthélémy [Hemisphere Project](http://www.hemisphere-project.com) _guichet des technologies_
+* Paola [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
+* Eric [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
+* Gregor Bruhin [FabLab La Côte](http://www.fablab-lacote.ch) _coup de main complice pour installer le pilote Arduino_
 
 ## Licence
 
