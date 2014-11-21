@@ -3,12 +3,18 @@
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
 par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 
-## Matériel
+## Préparation
+
+### Matériel
 
  * Circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno)
  * et capteur [Ultrasonic HC-SR04](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE).
 
-## Préparation
+### Logiciel
+
+ * Télécharger et installer l'[IDE Arduino 1.0](http://arduino.cc/en/Main/Software)
+
+### Librairie Ultrasonic
 
 Pour pouvoir compiler le programme, placer une copie de la librairie Ultrasonic HC-SR04
 pour Arduino dans le dossier `~/Documents/Arduino/libraries/` des [librairies de l'IDE
