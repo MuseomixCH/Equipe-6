@@ -1,12 +1,12 @@
 # Les Insomniaques du Musée
 
-Ce référentiel de code contient des artefacts logiciels et graphiques de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 lors de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
+Ce référentiel contient le code source des artefacts logiciels de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 lors de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
 
 ## Présentation
 
-A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là.
+« A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là. \[…\] » (_extrait du pitch de présentation_)
 
-[Fiche descriptive complète du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/)
+[Fiche de présentation du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/) (sur le site Museomix)
 
 ## Assemblage
 
@@ -27,15 +27,22 @@ A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent da
 
 ## Equipe
 
-|Equipe 6|Avec le support de|
+|Equipe 6| |
 |---|---|
-|Anne Zumbach _communication_|Jérémie Forge _guichet des technologies_|
-|Stéphanie Masuy _méditation culturelle_|Alain Barthelemy _guichet des technologies_|
-|Marie-Hélène de Ryckel _méditation culturelle_| |
-|Karl Laurent _contenus_|Paola, Webster University _photo, captation et montage vidéo_|
-|Vincent de Vevey _graphisme_|Eric, Webster University _photo, captation et montage vidéo_|
-|Olivier Lange _codeur_| |
-|Eric Brachet _facilitateur_|Greg Brachin, FabLab Neuchâtel _coup de main complice pour installer le pilote Arduino_|
+|Anne Zumbach|_communication_|
+|Stéphanie Masuy|_méditation culturelle_|
+|Marie-Hélène de Ryckel|_méditation culturelle_|
+|Karl Laurent|_contenus muséaux_|
+|Vincent de Vevey|_graphisme_|
+|Olivier Lange|_codeur_|
+|Avec le support de| |
+|---|---|
+|Jérémie Forge|_guichet des technologies_|
+|Eric Brachet|_facilitateur_|
+|Alain Barthelemy|_guichet des technologies_|
+|Paola, Webster University|_photo, captation et montage vidéo_|
+|Eric, Webster University|_photo, captation et montage vidéo_|
+|Gregor Bruhin, FabLab La Côte|_coup de main complice pour installer le pilote Arduino_|
 
 ## Licence
 
