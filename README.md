@@ -1,12 +1,12 @@
 # Les Insomniaques du Musée
 
-Ce référentiel contient le code source des artefacts logiciels de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 lors de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
+<img src="images/IMG_2370.JPG" width="200" style="float:right;"/> Ce référentiel contient le code source des artefacts logiciels de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 pendant les trois jours de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
 
 ## Présentation
 
-« A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là. \[…\] » (_extrait du pitch de présentation_)
+<img src="images/IMG_6057 23.JPG" width="200" style="float:right;"/> « A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là. \[…\] » (_extrait du pitch de présentation_)
 
-[Fiche de présentation du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/) (sur le site Museomix)
+[Fiche de présentation du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/) sur le site Museomix
 
 ## Assemblage
 
