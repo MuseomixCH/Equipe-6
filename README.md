@@ -1,14 +1,16 @@
 # Les Insomniaques du Musée
 
-Ce référentiel de code contient des artefacts logiciels et graphiques de l'installation [Les insomniaques du musée](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 lors de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
+Ce référentiel de code contient des artefacts logiciels et graphiques de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisés par l'équipe 6 lors de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème du ‹Musée dans la Cité›.
 
 ## Présentation
 
-A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là. [Fiche descriptive complète du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/)
+A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là.
+
+[Fiche descriptive complète du prototype](http://www.museomix.org/prototypes/les-insomniaquesdumusee/)
 
 ## Assemblage
 
-* [Assemblage du détecteur de présence](tree/master/code/detecteur-presence)
+* [Assemblage du détecteur de présence](code/detecteur-presence)
 * Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/)
 
 ## Déploiement
