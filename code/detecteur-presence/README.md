@@ -3,6 +3,8 @@
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
 par Jérémie Forge et Alain Barthelemy du Guichet des Technologies de Museomix.
 
+<img src="../../images/IMG_6250.JPG" height="200" title="Assemblage du détecteur avec Arduino Due"/>
+
 ## Préparation
 
 ### Matériel
