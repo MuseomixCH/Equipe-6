@@ -13,7 +13,7 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 ## Assemblage
 
 * [Assemblage du détecteur de présence](code/detecteur-presence)
-* Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/) 
+* Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/)
 
 ## Déploiement
 
@@ -46,8 +46,12 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 * Richard Timsit [FabLab Renens](http://www.fablab-chene20.ch/) _découpe laser_
 * Paola [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
 * Eric [Webster University](http://www.webster.ch) _photo, captation et montage vidéo_
-* Luca Palli _suggestions de matériel et indéfectible soutien logistique_
+
+### Remerciements
+
 * Gregor Bruhin [FabLab La Côte](http://www.fablab-lacote.ch) _coup de main complice pour installer le pilote Arduino_
+* Patrick Condevaux _qui nous a suggéré d'utiliser le board [Ototo](https://www.kickstarter.com/projects/905018498/ototo-make-music-from-anything) pour les boutons capacitifs_
+* Luca Palli _suggestions de matériel et indéfectible soutien logistique_
 
 ## Licence
 
