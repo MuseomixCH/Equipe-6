@@ -45,7 +45,11 @@ par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Subm
 Raccorder l'assemblage à l'ordinateur par le câble USB (connecter le port _Programming_ sur
 l'Arduino Due) et lancer l'IDE Arduino.
 
-Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`, sélectionner le board (menu _Tools » Board_)
-et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programme.
+Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`, sélectionner le board adéquat (menu _Tools » Board_)
+et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programme (menu _File » Upload_).
 
 ![Aperçu de l'IDE Arduino avec le programme du capteur](arduino-ide-ultrasonic-compile.png)
+
+Puis ouvrir le moniteur du port série. Si le dispositif fonctionne, on peut y lire la distance d'un objet au détecteur, exprimée en centimètres.
+
+![Aperçu du moniteur du port série](arduino-ide-ultrasonic-serial-monitor.png)
