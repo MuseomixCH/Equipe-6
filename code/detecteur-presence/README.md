@@ -3,32 +3,35 @@
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
 par Jérémie Forge et Alain Barthélémy, en support au _Guichet des Technologies_ de Museomix Léman 2014.
 
-<img src="../../images/IMG_6250.JPG" height="200" title="Assemblage du détecteur avec Arduino Due"/>
+<img src="../../images/IMG_6250.JPG" height="200" title="Assemblage du détecteur, avec circuit Arduino Due sur cette photo"/>
 
 ## Préparation
 
 ### Matériel
 
  * Circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno)
+ * ou [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue) (représenté sur la photo ci-dessus)
  * Capteur [Ultrasonic HC-SR04](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE)
  * Breadboard et câbles
  * Câble USB/microUSB pour programmer l'Arduino
 
 ### Logiciel
 
- * Télécharger et installer l'[IDE Arduino 1.0](http://arduino.cc/en/Main/Software)
+ * Télécharger et installer l'[IDE Arduino 1.0](http://arduino.cc/en/Main/Software) pour le circuit _Arduino Uno_
+ * ou l'[IDE Arduino 1.5.8 beta](http://arduino.cc/en/Main/Software) si vous utilisez un circuit _Arduino Due_
 
 ### Librairie Ultrasonic
 
-Pour pouvoir compiler le programme, placer une copie de la librairie Ultrasonic HC-SR04 pour Arduino
-dans le dossier des [librairies de l'IDE Arduino](http://www.arduino.cc/en/Hacking/Libraries).
+La librairie Ultrasonic HC-SR04 pour Arduino est requise pour pouvoir compiler le programme du détecteur.
+Placer une copie de celle-ci dans le dossier des [librairies de l'IDE Arduino](http://www.arduino.cc/en/Hacking/Libraries).
 
-Voici les instructions pour Mac OS X; le dossier cible des librairies est `~/Documents/Arduino/libraries/`:
+Voici des instructions pour Mac OS X; le dossier cible des librairies est `~/Documents/Arduino/libraries/`:
 
-    git submodule update --init
-    cd ArduinoLibraries/HCSR04Ultrasonic
-    mkdir ~/Documents/Arduino/libraries/Ultrasonic
-    cp Ultrasonic.{cpp,h} ~/Documents/Arduino/libraries/Ultrasonic/
+    $ cd code/detecteur-presence/
+    $ git submodule update --init
+    $ cd ArduinoLibraries/HCSR04Ultrasonic
+    $ mkdir ~/Documents/Arduino/libraries/Ultrasonic
+    $ cp Ultrasonic.{cpp,h} ~/Documents/Arduino/libraries/Ultrasonic/
 
 Le code source de la librairie Ultrasonic se trouve dans le sous-dossier `ArduinoLibraries/HCSR04Ultrasonic`
 — ce dernier étant lié au référentiel externe [daijo/ArduinoLibraries](https://github.com/daijo/ArduinoLibraries)
@@ -36,9 +39,11 @@ par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Subm
 
 ## Assemblage
 
+Voici comment raccorder le détecteur Ultrasonic au circuit Arduino Uno (source: https://code.google.com/p/arduino-new-ping/):
+
 ![Assemblage de l'Arduino Uno et du capteur Ultrasonic HC-SR04](arduino-uno-ultrasonic-hc-sr04-wiring.png)
 
-(source: https://code.google.com/p/arduino-new-ping/)
+Le câblage est similaire pour raccorder le détecteur au circuit Arduino Due; bien veiller à utiliser le pin VCC +5V pour alimenter le détecteur – le circuit du Due est en effet alimenté en +3.3V (celui du Uno fonctionne à +5V), mais il offre également une sortie +5V.
 
 ## Compilation
 
@@ -50,6 +55,6 @@ et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programm
 
 ![Aperçu de l'IDE Arduino avec le programme du capteur](arduino-ide-ultrasonic-compile.png)
 
-Puis ouvrir le moniteur du port série. Si le dispositif fonctionne, on peut y lire la distance d'un objet au détecteur, exprimée en centimètres.
+Puis ouvrir le moniteur du port série (menu _Tools » Serial Monitor_). Lorsque le dispositif fonctionne, on peut y lire la distance d'un objet au détecteur, exprimée en centimètres.
 
 ![Aperçu du moniteur du port série](arduino-ide-ultrasonic-serial-monitor.png)
