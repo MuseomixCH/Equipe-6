@@ -3,9 +3,9 @@
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
 par Jérémie Forge et Alain Barthélémy, l'équipe du _Guichet des Technologies_ de Museomix Léman 2014.
 
-L'assemblage original a été réalisé avec un circuit _Arduino Uno_ et le schéma de câblage est donné pour ce dernier. L'assemblage fonctionne cependant avec d'autres circuits Arduino; la photo qui suit présente un assemblage avec le circuit _Arduino Due_.
+<img src="../../images/IMG_1341.JPG" height="200" title="Assemblage du détecteur de présence, avec circuit Arduino Due"/>
 
-<img src="../../images/IMG_1341.JPG" height="200" title="Assemblage du détecteur, avec circuit Arduino Due sur cette photo"/>
+L'assemblage original a été réalisé avec un circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno) et le schéma de câblage est donné pour ce dernier. Il peut cependant être réalisé avec d'autres circuits Arduino. Par exemple, avec le circuit [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue) (cf. photo ci-dessus).
 
 ## Préparation
 
@@ -41,11 +41,11 @@ par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Subm
 
 ## Assemblage
 
-Voici comment raccorder le détecteur Ultrasonic au circuit Arduino Uno (source: https://code.google.com/p/arduino-new-ping/):
+Voici comment raccorder le détecteur Ultrasonic au circuit Arduino Uno (source: https://code.google.com/p/arduino-new-ping):
 
 ![Assemblage de l'Arduino Uno et du capteur Ultrasonic HC-SR04](arduino-uno-ultrasonic-hc-sr04-wiring.png)
 
-Le câblage est similaire pour raccorder le détecteur au circuit Arduino Due; bien veiller à utiliser le pin VCC +5V pour alimenter le détecteur – le circuit du Due est en effet alimenté en +3.3V (celui du Uno fonctionne à +5V), mais il offre également une sortie +5V.
+Le câblage est similaire pour raccorder le détecteur au circuit Arduino Due. Veiller à utiliser le pin VCC +5V du circuit de l'Arduino pour alimenter le détecteur, qui requiert +5V pour fonctionner.
 
 ## Compilation
 
