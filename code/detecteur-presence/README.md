@@ -1,16 +1,18 @@
 # Détecteur de présence
 
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
-par Jérémie Forge et Alain Barthélémy, en support au _Guichet des Technologies_ de Museomix Léman 2014.
+par Jérémie Forge et Alain Barthélémy, l'équipe du _Guichet des Technologies_ de Museomix Léman 2014.
 
-<img src="../../images/IMG_6250.JPG" height="200" title="Assemblage du détecteur, avec circuit Arduino Due sur cette photo"/>
+L'assemblage original a été réalisé avec un circuit _Arduino Uno_ et le schéma de câblage est donné pour ce dernier. L'assemblage fonctionne cependant avec d'autres circuits Arduino; la photo qui suit présente un assemblage avec le circuit _Arduino Due_.
+
+<img src="../../images/IMG_1341.JPG" height="200" title="Assemblage du détecteur, avec circuit Arduino Due sur cette photo"/>
 
 ## Préparation
 
 ### Matériel
 
  * Circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno)
- * ou [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue) (représenté sur la photo ci-dessus)
+ * ou circuit [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue)
  * Capteur [Ultrasonic HC-SR04](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE)
  * Breadboard et câbles
  * Câble USB/microUSB pour programmer l'Arduino
@@ -47,8 +49,7 @@ Le câblage est similaire pour raccorder le détecteur au circuit Arduino Due; b
 
 ## Compilation
 
-Raccorder l'assemblage à l'ordinateur par le câble USB (connecter le port _Programming_ sur
-l'Arduino Due) et lancer l'IDE Arduino.
+Raccorder l'assemblage à l'ordinateur par le câble USB (connecter le port _Programming_ sur l'Arduino Due) et lancer l'IDE Arduino.
 
 Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`, sélectionner le board adéquat (menu _Tools » Board_)
 et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programme (menu _File » Upload_).
