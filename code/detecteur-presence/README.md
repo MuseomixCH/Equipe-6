@@ -1,9 +1,9 @@
 # Détecteur de présence
 
+<img src="../../images/IMG_6322.JPG" height="200" width="200" title="Assemblage du détecteur de présence, avec circuit Arduino Due"/>
+
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
 par Jérémie Forge et Alain Barthélémy, l'équipe du _Guichet des Technologies_ de Museomix Léman 2014.
-
-<img src="../../images/IMG_1341.JPG" height="200" title="Assemblage du détecteur de présence, avec circuit Arduino Due"/>
 
 L'assemblage original a été réalisé avec un circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno) et le schéma de câblage est donné pour ce dernier. Il peut cependant être réalisé avec d'autres circuits Arduino. Par exemple, avec le circuit [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue) (cf. photo ci-dessus).
 
