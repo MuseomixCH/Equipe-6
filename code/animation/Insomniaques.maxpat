@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 31.0, 748.0, 1090.0, 726.0 ],
+		"rect" : [ 387.0, 191.0, 265.0, 291.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -29,14 +29,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-72",
-					"maxclass" : "newobj",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-86",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 722.0, 60.0, 19.0 ],
-					"text" : "s endoffile"
+					"patching_rect" : [ 51.0, 12.0, 202.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 78.0, 13.0, 113.0, 22.0 ],
+					"text" : "Insomniaques"
 				}
 
 			}
@@ -1017,7 +1021,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2000,15 +2004,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-101", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-103", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2019,15 +2014,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-103", 0 ]
@@ -2055,15 +2041,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-105", 0 ]
@@ -2887,8 +2864,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "live.tab[1]", "live.tab[3]", 0 ],
-			"obj-7" : [ "live.tab[3]", "live.tab[3]", 0 ]
+			"obj-7" : [ "live.tab[3]", "live.tab[3]", 0 ],
+			"obj-4" : [ "live.tab[1]", "live.tab[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
