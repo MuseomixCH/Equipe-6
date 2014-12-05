@@ -1,9 +1,9 @@
 # Détecteur de présence
 
-<img src="../../images/IMG_6322.JPG" height="200" width="200" title="Assemblage du détecteur de présence, avec circuit Arduino Due"/>
-
 Ce dossier contient les sources du programme Arduino du détecteur de présence, réalisé
-par Jérémie Forge et Alain Barthélémy, l'équipe du _Guichet des Technologies_ de Museomix Léman 2014.
+par Jérémie Forge et Alain Barthélémy ([Atelier Hemisphère](http://www.hemisphere-project.com/)), l'équipe du _Guichet des Technologies_ de Museomix Léman 2014.
+
+<img src="../../images/IMG_6322.JPG" height="200" width="200" title="Assemblage du détecteur de présence, avec circuit Arduino Due"/>
 
 L'assemblage original a été réalisé avec un circuit [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno) et le schéma de câblage est donné pour ce dernier. Il peut cependant être réalisé avec d'autres circuits Arduino. Par exemple, avec le circuit [Arduino Due](http://arduino.cc/en/Main/ArduinoBoardDue) (cf. photo ci-dessus).
 
@@ -43,7 +43,7 @@ par le mécanisme de [sous-modules](http://git-scm.com/book/en/v2/Git-Tools-Subm
 
 Voici comment raccorder le détecteur Ultrasonic au circuit Arduino Uno (source: https://code.google.com/p/arduino-new-ping):
 
-![Assemblage de l'Arduino Uno et du capteur Ultrasonic HC-SR04](arduino-uno-ultrasonic-hc-sr04-wiring.png)
+![Assemblage de l'Arduino Uno et du capteur Ultrasonic HC-SR04](docs/arduino-uno-ultrasonic-hc-sr04-wiring.png)
 
 Le câblage est similaire pour raccorder le détecteur au circuit Arduino Due. Veiller à utiliser le pin VCC +5V du circuit de l'Arduino pour alimenter le détecteur, qui requiert +5V pour fonctionner.
 
@@ -54,8 +54,8 @@ Raccorder l'assemblage à l'ordinateur par le câble USB (connecter le port _Pro
 Ouvrir le fichier `Ultrasonic-HC-SR04/Ultrasonic-HC-SR04.ino`, sélectionner le board adéquat (menu _Tools » Board_)
 et le port (menu _Tools » Port_) adéquats, puis commander l'upload du programme (menu _File » Upload_).
 
-![Aperçu de l'IDE Arduino avec le programme du capteur](arduino-ide-ultrasonic-compile.png)
+![Aperçu de l'IDE Arduino avec le programme du capteur](docs/arduino-ide-ultrasonic-compile.png)
 
 Puis ouvrir le moniteur du port série (menu _Tools » Serial Monitor_). Lorsque le dispositif fonctionne, on peut y lire la distance d'un objet au détecteur, exprimée en centimètres.
 
-![Aperçu du moniteur du port série](arduino-ide-ultrasonic-serial-monitor.png)
+![Aperçu du moniteur du port série](docs/arduino-ide-ultrasonic-serial-monitor.png)
