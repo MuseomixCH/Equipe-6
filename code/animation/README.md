@@ -6,7 +6,7 @@ Le coeur de l'installation est une animation interactive réalisée avec [MaxMSP
 
 ### Etats
 
-Cette animation possède 3 états:
+<img src="docs/animation-state-diagram.png" width="204" height="494" style="float: right;">Cette animation possède 3 états:
 
 * un mode _jour_, dans lequel elle présente une oeuvre du musée, immobile, silencieuse, avec des indications sur l'exposition en cours au musée (séquence vidéo [wait_day.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7dF9BYVZyank3Sms/edit), voir ci-après); elle est semblable à une affiche imprimée;
 * un mode _nuit passif_, où elle présente une oeuvre du musée dans une animation silencieuse, énigmatique, qui invite les passants à la curiosité (séquence vidéo [wait_night.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7WmdQRHFVMVdBVXc/edit));
