@@ -1,6 +1,6 @@
-# Animation MaxMSP «Les insomniaques du musée»
+# Animation MaxMSP
 
-Le coeur de l'installation est une animation interactive réalisée avec MaxMSP par Jérémie Forge ([Atelier Hemisphère](http://www.hemisphere-project.com/)), du guichet des technologies de Museomix Leman.
+Le coeur de l'installation est une animation interactive réalisée avec MaxMSP par Jérémie Forge ([Atelier Hemisphère](http://www.hemisphere-project.com/)), de l'équipe du Guichet des Technologies de Museomix Léman 2014.
 
 Cette animation possède 3 états:
 
@@ -22,11 +22,11 @@ La transition entre ces états:
 
 ## Les séquences vidéo
 
-Sont disponibles dans le dossier Google Drive de Museomix Leman:
+Sont disponibles dans le dossier [Google Drive de Museomix Leman](https://drive.google.com/drive/#folders/0B3Q4jqRazJwDd2FEOXFWeWNHVGM/0B6MJiDb9PY-7Q19Ic3F2a3VLZms/0B6MJiDb9PY-7OVRnQWZlX2FnaDA):
 
-* [scenario_EN.mov](#TODO) 313MB
-* [scenario_FR.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7SGliSlBXZG1FeWM/edit) 313MB
+* [scenario_EN.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7TVhrOXd5UERKMXc/edit) 313MB
+* [scenario_FR.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7Z0lDWEJPc0hSZWs/edit) 313MB
 * [wait_day.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7dF9BYVZyank3Sms/edit) 24MB
-* [wait_night.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7ZWZEMnd5LXRpVXM/edit) 866MB
+* [wait_night.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7WmdQRHFVMVdBVXc/edit) 866MB
 
-Les séquences présentes dans ce référentiel GitHub sont des vidéos d'exemple de taille réduite, qui n'ont rien à voir avec le dispositif présenté. GitHub restreint en effet la [taille max. des fichiers à 100MB](https://help.github.com/articles/what-is-my-disk-quota/) et la [taille du référentiel à 1GB](https://help.github.com/articles/what-is-my-disk-quota/); ces limites sont dépassées par nos fichiers vidéo, ce pourquoi elles ont été placées sur Google Drive.
+Les séquences présentes dans ce référentiel GitHub sont des vidéos d'exemple de taille réduite, qui étaient utilisées pendant le développement, mais ne correspondent pas à celles du dispositif présenté. GitHub restreint en effet la [taille max. des fichiers à 100MB](https://help.github.com/articles/what-is-my-disk-quota/) et la [taille du référentiel à 1GB](https://help.github.com/articles/what-is-my-disk-quota/); comme ces limites sont dépassées par nos fichiers vidéo, elles ont été placées sur Google Drive.
