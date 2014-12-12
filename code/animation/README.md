@@ -12,7 +12,7 @@ Le coeur de l'installation est une animation interactive réalisée avec [MaxMSP
 
 * un mode **jour**, dans lequel l'installation présente une oeuvre du musée, immobile, silencieuse, avec des indications sur l'exposition en cours au musée (séquence vidéo [wait_day.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7dF9BYVZyank3Sms/edit), voir ci-après); elle est semblable à une affiche imprimée;
 * un mode **nuit passif**, où elle est en attente et présente une oeuvre du musée dans une animation silencieuse, énigmatique, qui invite les passants à la curiosité (séquence vidéo [wait_night.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7WmdQRHFVMVdBVXc/edit));
-* un mode **nuit actif**, déclenché lorsqu'un·e passant·e s'approche à moins de 1.50 m du dispositif, dans lequel l'oeuvre prend vie, s'anime et interpelle ce·tte passant·e.
+* un mode **nuit actif**, déclenché lorsqu'un·e passant·e s'approche à moins de 2 mètres du dispositif, dans lequel l'oeuvre prend vie, s'anime et interpelle ce ou cette passant·e.
 
 Elle possède 2 états internes à ce dernier état **nuit actif**:
 
@@ -23,7 +23,7 @@ Elle possède 2 états internes à ce dernier état **nuit actif**:
 
 * l'animation passe de l'état **jour** à l'état **nuit passif**, lorsque l'on effleure le bouton capacitif servant à déclencher cette transition; dans une version définitive, cette transition se déclencherait automatiquement, à la nuit tombée;
 * elle passe des états **nuit passif** et **nuit actif** à l'état **jour**, lorsque l'on effleure à nouveau le bouton capacitif qui permet cette bascule; dans une version définitive, cette transition se déclencherait automatiquement, lorsque le soleil réapparaît;
-* elle passe de l'état **nuit passif** à l'état **nuit actif**, lorsque le dispositif détecte une présence à une distance de moins de 1.50 m;
+* elle passe de l'état **nuit passif** à l'état **nuit actif**, lorsque le [détecteur de présence](../detecteur-presence) signale une présence à une distance de moins de 2 mètres, pour une durée supérieure à 100 ms (ce qui évite de réagir à un passage rapide, d'un oiseau par exemple, devant le détecteur);
 * lorsque l'animation est dans l'état **nuit actif**, il est possible de basculer entre deux états internes, **français** et **anglais**, en effleurant les deux boutons capacitifs en façade, qui permettent le choix de la langue;
 * à la fin de la lecture de la séquence vidéo de l'état **nuit actif**, le dispositif retourne automatiquement au mode **nuit passif**.
 
