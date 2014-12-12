@@ -16,18 +16,6 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 * [Détecteur de présence](code/detecteur-presence) _Sources Arduino et instructions d'assemblage du détecteur_
 * [Boutons capacitifs](code/boutons-capacitifs) _TODO_
 
-## Déploiement
-
-### Mac OS X
-
-* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
-
-### Windows
-
-* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
-* [Quicktime](http://support.apple.com/downloads/#quicktime) _version 7.7.6 dans notre setup_
-* [Pilote Arduino Uno](http://arduino.cc/en/guide/windows) _suivre les instructions, qui permettent d'installer le driver USB FTDI pour l'Arduino (version 1.0.6 dans notre setup)_
-
 ## Equipe de réalisation
 
 ### Equipe 6

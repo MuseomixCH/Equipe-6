@@ -38,6 +38,16 @@ Sont disponibles dans le dossier [Google Drive de Museomix Leman](https://drive.
 |Nuit actif / FR|[scenario_FR.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7Z0lDWEJPc0hSZWs/edit)|313MB|36 sec, passage unique|L'oeuvre s'anime et interpelle le·la passant·e, en français; elle se présente, troublante, cligne de l'oeil et l'engage à la rejoindre au musée|
 |Nuit actif / EN|[scenario_EN.mov](https://docs.google.com/file/d/0B6MJiDb9PY-7TVhrOXd5UERKMXc/edit)|313MB|36 sec, passage unique|La même animation, avec le commentaire en anglais|
 
-### Note 
-
 Les séquences présentes dans ce référentiel GitHub sont des vidéos d'exemple de taille réduite, qui étaient utilisées pendant le développement, mais ne correspondent pas à celles du dispositif présenté. GitHub restreint en effet la [taille max. des fichiers à 100MB](https://help.github.com/articles/what-is-my-disk-quota/) et la [taille du référentiel à 1GB](https://help.github.com/articles/what-is-my-disk-quota/); comme ces limites sont dépassées par nos fichiers vidéo, elles ont été placées sur Google Drive.
+
+## Déploiement
+
+### Mac OS X
+
+* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
+
+### Windows
+
+* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
+* [Quicktime](http://support.apple.com/downloads/#quicktime) _version 7.7.6 dans notre setup_
+* [Pilote Arduino Uno](http://arduino.cc/en/guide/windows) _suivre les instructions, qui permettent d'installer le driver USB FTDI pour l'Arduino (version 1.0.6 dans notre setup)_
