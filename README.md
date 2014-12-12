@@ -12,8 +12,9 @@ Ce référentiel contient le code source des artefacts logiciels de l'installati
 
 ## Assemblage
 
-* [Assemblage du détecteur de présence](code/detecteur-presence)
-* Vous trouverez ici sous peu les sources [MaxMSP](https://cycling74.com/products/max/)
+* [Animation principale](code/animation) _Sources MaxMSP du contrôleur du dispositif et instructions de déploiement_
+* [Détecteur de présence](code/detecteur-presence) _Sources Arduino et instructions d'assemblage du détecteur_
+* [Boutons capacitifs](code/boutons-capacitifs) _TODO_
 
 ## Déploiement
 
