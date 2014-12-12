@@ -40,14 +40,20 @@ Sont disponibles dans le dossier [Google Drive de Museomix Leman](https://drive.
 
 Les séquences présentes dans ce référentiel GitHub sont des vidéos d'exemple de taille réduite, qui étaient utilisées pendant le développement, mais ne correspondent pas à celles du dispositif présenté. GitHub restreint en effet la [taille max. des fichiers à 100MB](https://help.github.com/articles/what-is-my-disk-quota/) et la [taille du référentiel à 1GB](https://help.github.com/articles/what-is-my-disk-quota/); comme ces limites sont dépassées par nos fichiers vidéo, elles ont été placées sur Google Drive.
 
+## Edition de l'animation
+
+* Télécharger et installer [MaxMSP 6](https://cycling74.com/downloads/older/); disponible en version «démo» pendant 30 jours après le premier lancement
+* Ouvrir et éditer le «patch» source [Insomniaques.maxpat](./Insomniaques.maxpat) qui se trouve dans ce dossier
+
 ## Déploiement
 
 ### Mac OS X
 
-* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
+* [Runtime MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
+* [Script Automator «Start»](./start.app) _Script Apple Automator, qui peut être inscrit dans les programmes à lancer à l'ouverture de session (Préférences Système > Utilisateurs et groupes > onglet Ouverture)_
 
 ### Windows
 
-* [MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
+* [Runtime MaxMSP 6](https://cycling74.com/downloads/older/) _version 6.1.9 dans notre setup_
 * [Quicktime](http://support.apple.com/downloads/#quicktime) _version 7.7.6 dans notre setup_
 * [Pilote Arduino Uno](http://arduino.cc/en/guide/windows) _suivre les instructions, qui permettent d'installer le driver USB FTDI pour l'Arduino (version 1.0.6 dans notre setup)_
