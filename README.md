@@ -16,20 +16,22 @@ Sources et instructions d'assemblage:
 
 * [Animation principale](code/animation) _Sources MaxMSP du contrôleur du dispositif et instructions de déploiement_
 * [Détecteur de présence](code/detecteur-presence) _Sources Arduino et instructions d'assemblage du détecteur_
-* [Boutons capacitifs](code/boutons-capacitifs) _TODO_
+* [Boutons capacitifs](code/boutons-capacitifs) _Instructions d'assemblage des boutons capacitifs_
 
 L'installation est un assemblage des éléments matériels suivants:
 
 * un coffre en bois laqué rouge, avec un panneau arrière amovible;
 * dans lequel était inscrusté un écran plat [Sony 42" Flat Wide Display; Monitor](http://www.sony.fr/pro/product/professional-displays-public-displays/fwd-s42h1/) (M/N FWD-S42H1);
-* sur lequel était disposé un détecteur de présence (réalisé avec un Arduino et un détecteur à ultrasons);
-* deux haut-parleurs [JBL Control One](http://fr.jbl.com/jbl_product_detail_de/control-one.html);
-* deux boutons capacitifs en façade, pour la bascule entre la langue anglaise et française;
-* un bouton capacitif à l'arrière, pour la bascule manuelle entre les modes jour et nuit;
-* et à l'intérieur duquel se trouvait un Mac Mini, qui pilotait une animation MaxMSP, réagissant aux boutons et au détecteur de présence;
+* sur lequel était disposé un [détecteur de présence](code/detecteur-presence), réalisé avec un Arduino et un détecteur à ultrasons;
+* deux [boutons capacitifs](code/boutons-capacitifs) en façade, pour la bascule entre la langue anglaise et française;
+* un [bouton capacitif](code/boutons-capacitifs) à l'arrière, pour la bascule manuelle entre les modes jour et nuit;
+* et à l'intérieur duquel se trouvait un Mac Mini, qui pilotait une [animation MaxMSP](code/animation), réagissant aux boutons et au détecteur de présence;
 * un contrôleur [Ototo](http://www.ototo.fm/products), connecté aux boutons capacitifs;
-* ainsi qu'un amplificateur audio [Cambridge Audio One](http://www.cambridgeaudio.com/node/1828).
+* ainsi qu'un amplificateur audio [Cambridge Audio One](http://www.cambridgeaudio.com/node/1828) 2x 30W
+* raccordé à deux enceintes audio [JBL Control One](http://fr.jbl.com/jbl_product_detail_de/control-one.html).
 
+Nous avions envisagé d'incruster les enceintes dans le pied de l'installation, mais comme il n'était pas possible d'altérer le coffre en bois, elles ont été disposées dessus (comme figuré sur les photos).
+ 
 ## Equipe de réalisation
 
 ### Equipe 6
