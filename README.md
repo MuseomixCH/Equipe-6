@@ -1,6 +1,8 @@
 # Les insomniaques du musée
 
-Ce référentiel contient une description technique, ainsi que le code source des composants logiciels, de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/), réalisée par l'équipe 6 pendant les trois jours de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème ‹Comment faire vivre le musée dans la cité?›.
+Ce référentiel contient une description technique, ainsi que le code source des composants logiciels de l'installation [‹Les insomniaques du musée›](http://www.museomix.org/prototypes/les-insomniaquesdumusee/).
+
+Cette installation a été réalisée par l'équipe 6 pendant les trois jours de [Museomix Léman 2014](http://leman.museomix.ch/), sur le thème ‹Comment faire vivre le musée dans la cité?›.
 
 <img src="images/IMG_2373.JPG" height="180"/> <img src="images/IMG_2370.JPG" height="180"/> <img src="images/IMG_6057 23.JPG" height="180"/> <img src="images/IMG_6250.JPG" height="180"/>
 
@@ -10,18 +12,20 @@ Ce référentiel contient une description technique, ainsi que le code source de
 
 « A la tombée de la nuit, les oeuvres du musée d'art et d'histoire s'invitent dans la cité et s'animent. Elles ont terminé leur journée, quittent leur support et réapparaissent, lumineuses, à la nuit tombante sur des panneaux disposés en ville qui ressemblaient à des affiches jusque-là. \[…\] »
 
-## Matériel et assemblage
+## Assemblage
 
-Sources et instructions d'assemblage:
+Sources des composants logiciels et instructions d'assemblage:
 
 * [Animation principale](code/animation) _Sources MaxMSP du contrôleur du dispositif et instructions de déploiement_
 * [Détecteur de présence](code/detecteur-presence) _Sources Arduino et instructions d'assemblage du détecteur_
 * [Boutons capacitifs](code/boutons-capacitifs) _Instructions d'assemblage des boutons capacitifs_
 
+## Matériel
+
 L'installation est un assemblage des éléments matériels suivants:
 
 * un coffre en bois laqué rouge, avec un panneau arrière amovible;
-* dans lequel était inscrusté un écran plat [Sony 42" Flat Wide Display; Monitor](http://www.sony.fr/pro/product/professional-displays-public-displays/fwd-s42h1/) (M/N FWD-S42H1);
+* dans lequel était inscrusté un écran plat [Sony 42" Flat Wide Display Monitor](http://www.sony.fr/pro/product/professional-displays-public-displays/fwd-s42h1/) (M/N FWD-S42H1);
 * sur lequel était disposé un [détecteur de présence](code/detecteur-presence), réalisé avec un Arduino et un détecteur à ultrasons;
 * deux [boutons capacitifs](code/boutons-capacitifs) en façade, pour la bascule entre la langue anglaise et française;
 * un [bouton capacitif](code/boutons-capacitifs) à l'arrière, pour la bascule manuelle entre les modes jour et nuit;
