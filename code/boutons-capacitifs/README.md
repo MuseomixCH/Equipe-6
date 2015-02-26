@@ -14,7 +14,7 @@ et peinture rouge du coffre en bois.
 
 L'effleurement est détecté par le sympathique [circuit Ototo](http://www.ototo.fm/products),
 qui mesure l'altération de la capacitance sur son bornier. Il livre des signaux Midi sur un
-câble USB, qui étaient capturés par l'animation MaxMSP.
+câble USB, qui étaient capturés par [l'animation MaxMSP](../animation/README.md).
 
 <img src="ototo-board-1414371039023.jpg" height="200" title="Circuit Ototo"/>
 
